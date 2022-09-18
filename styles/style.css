@@ -499,11 +499,23 @@ input[type=submit]:hover {
 }
 .options {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     list-style: none;
     flex-wrap: nowrap;
+    height: 15vh;
+    padding-top: 3%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.89);
+    font-family: texto;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5vh;
 }
-
+.options:hover {
+    color: white;
+}
 
 .scale-in-center {
 	animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
